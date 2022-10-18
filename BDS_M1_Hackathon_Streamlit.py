@@ -1,10 +1,10 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import seaborn as sns; sns.set()
 from matplotlib.patches import ConnectionPatch
-#import plotly.express as px
+import plotly.express as px
 
 data = pd.read_csv('https://raw.githubusercontent.com/NadiaHolmlund/BDS-M1-Hackathon/main/Data/attacks.csv', encoding='iso8859-1')
 
