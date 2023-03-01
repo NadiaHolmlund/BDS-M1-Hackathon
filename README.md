@@ -9,4 +9,5 @@ As part of the EDA process, we conducted data preprocessing operations to ensure
 Overall, the project provided us with a valuable learning experience, allowing us to apply our theoretical knowledge of EDA and visualization techniques to real-world data
 
 Click the link below to check out the Streamlit:
+
 https://nadiaholmlund-bds-m1-hackatho-bds-m1-hackathon-streamlit-zxbral.streamlitapp.com/
