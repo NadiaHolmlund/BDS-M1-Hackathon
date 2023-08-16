@@ -102,7 +102,7 @@ top_10_countries.show()
 
 # Attacks by country
 
-attacks_by_country = data['Country'].value_counts().rename_axis('Count').reset_index(name='Country')
+attacks_by_country = data['Country'].value_counts().rename_axis('Country').reset_index(name='Count')
 attacks_by_country.head()
 
 # World map of attacks by country
