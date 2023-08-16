@@ -102,14 +102,13 @@ top_10_countries.show()
 
 # Attacks by country
 
-attacks_by_country = data['Country'].value_counts().reset_index()
-#attacks_by_country = attacks_by_country.reset_index().rename(columns={'Country':'Count','index':'Country'})
+attacks_by_country = data['Country'].value_counts().rename_axis('Count').reset_index(name='Country')
 attacks_by_country.head()
 
 # World map of attacks by country
 world_map = px.choropleth(attacks_by_country,
-                    locations = 'index',
-                    color = 'Country',
+                    locations = 'Country',
+                    color = 'Count',
                     color_continuous_scale='Plasma',
                     locationmode = 'country names',
                     scope = 'world',
