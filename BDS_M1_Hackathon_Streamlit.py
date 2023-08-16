@@ -107,7 +107,7 @@ attacks_by_country.head()
 
 # World map of attacks by country
 world_map = px.choropleth(attacks_by_country,
-                    locations = 'Count',
+                    locations = 'Country',
                     color = 'Count',
                     color_continuous_scale='Plasma',
                     locationmode = 'country names',
