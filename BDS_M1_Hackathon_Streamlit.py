@@ -144,15 +144,6 @@ with tab1:
     st.audio('https://www.televisiontunes.com/uploads/audio/Jaws.mp3')
     st.video('https://www.youtube.com/watch?v=4HGNqFdaD34&t=5s')
 
-with st.sidebar:
-    
-    "Made by Group 3"
-    "Nadia"
-    "Fredrik"
-    "Jakob"
-    "Alpha"
-    "Sadiksha"
-    "Jannatul"
 
 with tab2:
    st.header("Do sharks gender discriminate when deciding their dinner?")
